@@ -1,0 +1,14 @@
+echo Enter a number
+read a
+echo Enter a number
+read b
+echo Enter the option
+echo 1.Addition
+echo 2.Subtraction
+read y
+case $y in
+"1") echo Addition = $((a+b))
+;;
+"2") echo Subtraction
+;;
+esac
